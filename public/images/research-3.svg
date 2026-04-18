@@ -1,0 +1,7 @@
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#f3f4f6"/>
+  <circle cx="200" cy="120" r="30" fill="#fbbf24"/>
+  <path d="M170 120 L200 90 L230 120 L200 150 Z" fill="#10b981"/>
+  <rect x="185" y="140" width="30" height="10" fill="#6b7280"/>
+  <text x="200" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#374151">Renewable Energy Lab</text>
+</svg>

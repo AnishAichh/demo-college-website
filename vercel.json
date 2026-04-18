@@ -2,11 +2,16 @@
   "version": 2,
   "builds": [
     {
-      "src": "next.config.js",
+      "src": "package.json",
       "use": "@vercel/next"
     }
   ],
   "env": {
-    "DATABASE_URL": "@neon_database_url"
+    "DATABASE_URL": "@database_url"
+  },
+  "functions": {
+    "app/api/**/*.ts": {
+      "maxDuration": 30
+    }
   }
 }
